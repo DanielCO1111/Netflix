@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="dark_red">#B81D24</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="gray_hint">#AAAAAA</color>
+    <color name="netflix_black">#000000</color>
+    <color name="netflix_red">#e50914</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Netflix</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="login">Login</string>
+    <string name="password_hint">Password</string>
+    <string name="register">Register</string>
+    <string name="username_hint">Username</string>
+    <style name="Base.Theme.Netflix" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/dark_red</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="EditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/edittext_background</item> 
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#D1C8C8</item>
+        android:textColorHint="@color/gray"
+        android:backgroundTint="#3CFFFFFF"
+        android:textColor="#D1C8C8"
+        android:textColorHint="#77D1C8C8"
+
+    </style>
+    <style name="Theme.Netflix" parent="Base.Theme.Netflix"/>
+    <style name="TitleTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

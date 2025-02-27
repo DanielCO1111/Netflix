@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleTextView"
+        style="@style/TitleTextStyle"
+        android:text="NETFLIX" />
+
+    <!-- Username Input -->
+    <EditText
+        android:id="@+id/usernameEditText"
+        style="@style/EditTextStyle"
+        android:textColorHint="#77D1C8C8"
+        android:hint="Username" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        style="@style/EditTextStyle"
+        android:hint="Password"
+        android:textColorHint="#77D1C8C8"
+        android:inputType="textPassword" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginButton"
+        style="@style/ButtonStyle"
+        android:text="Login" />
+</LinearLayout>
+
+
+

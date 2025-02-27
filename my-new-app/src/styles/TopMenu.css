@@ -1,0 +1,171 @@
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #141414;
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.n-logo-svg {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.nav-links button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.nav-links button:hover {
+  text-decoration: underline;
+}
+
+/* Search container: ensures input & button are on the same line */
+.search-container {
+  position: relative;
+  display: flex;           
+  align-items: center;    
+  max-width: 300px;
+}
+
+/* Dropdown for search results */
+.search-dropdown {
+  position: absolute;
+  top: 45px; 
+  left: 0;
+  right: 0;
+  color: #fff;
+  background-color: #333;
+  border-radius: 4px;
+  max-height: 250px;
+  overflow-y: auto;
+  z-index: 9999;
+}
+
+/* Each result in the dropdown */
+.dropdown-item {
+  padding: 8px 12px;
+  color: white;
+  background-color: #333;
+  cursor: pointer;
+}
+
+
+.dropdown-item:hover {
+  background-color: #444;
+}
+
+/* The .search-box classes (legacy) */
+.search-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 4px;
+  transition: width 0.3s, background-color 0.3s;
+  width: 40px;
+  overflow: hidden;
+}
+
+.search-box.focused {
+  width: 100%;
+  background-color: #444; 
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 14px;
+  background: transparent;
+  color: #fff; 
+  margin-left: 10px;
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+
+.search-box.focused input {
+  opacity: 1;
+}
+
+/* Search icon styling */
+.search-icon {
+  fill: currentColor; /* uses the parent's color */
+}
+
+.navbar-dark .search-icon {
+  fill: white;
+}
+
+.navbar-light .search-icon {
+  fill: black;
+}
+
+.results-dropdown {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  color: #fff;
+  background-color: #444;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.result-item {
+  padding: 10px;
+  border-bottom: 1px solid #555;
+  color: white;
+  cursor: pointer;
+}
+
+.result-item:hover {
+  background-color: #555;
+  color: white;
+}
+
+.result-item h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.result-item p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .search-box {
+    width: 100%;
+  }
+}

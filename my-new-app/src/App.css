@@ -1,0 +1,136 @@
+/* General body and layout */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #141414;
+  color: #fff;
+}
+
+/* Dark mode for background */
+.dark-mode {
+  background-color: #121212;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Home screen styling */
+.home-container {
+  background-image: url('https://www.okynemedialab.com/wp-content/uploads/2019/11/netflix-background-1024x576.jpg'); /* Example Netflix-like background */
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.home-container p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.home-button {
+  background-color: #e50914;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: #b81d24;
+}
+
+/* Register page */
+.register-container {
+  background-color: #141414;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.register-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.register-button {
+  background-color: #e50914;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.register-button:hover {
+  background-color: #b81d24;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+
+/* Main screen */
+.main-screen {
+  padding: 20px;
+}
+
+.movie-list {
+  margin: 20px 0;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.movie-card {
+  text-align: center;
+}
+
+.movie-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Video player */
+.video-player {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.video-player video {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}

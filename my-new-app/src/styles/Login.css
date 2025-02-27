@@ -1,0 +1,117 @@
+/* login container: Center content in the page */
+.login-container {
+  background-color: black; /* Netflix black background */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 110vh; /* Full page height */
+  background-image: url('netback2.jpg');
+}
+
+/* Logo text styling */
+.logo-text {
+  color: #e50914; /* Netflix red */
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px; /* Space below the logo */
+}
+
+/* Login box: Center and apply consistent padding */
+.login-box {
+  background-color: #000000b3; /* Netflix red shade for the box */
+  border-radius: 10px; /* Rounded corners */
+  width: 400px; /* Fixed width for consistency */
+  padding: 30px; /* Add padding inside the box */
+  text-align: center; /* Center the content inside */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Headings inside the registration box */
+.login-box h2 {
+  font-size: 24px; /* Adjust heading size */
+  font-weight: bold;
+  color: white; /* White text */
+  margin-bottom: 10px;
+}
+
+.login-box h3 {
+  font-size: 16px;
+  color: #f8f8f8; /* Light grey text */
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.login-input {
+  width: 80%; /* Full width inside the box */
+  padding: 10px; /* Inner spacing for comfort */
+  margin-bottom: 10px; /* Space below each input */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 5px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding/border in the width */
+  font-size: 16px; /* Standard font size */
+}
+
+/* Form group container for input and error */
+.form-group {
+  position: relative; /* Allows absolute positioning for errors */
+  margin-bottom: 20px; /* Space between fields */
+}
+
+/* Error message styles */
+.error-message {
+  color: red; /* Red for errors */
+  font-size: 12px; /* Smaller font size for error messages */
+  position: absolute; /* Position error relative to the input field */
+  bottom: -20px; /* Place the error below the input */
+  left: 0; /* Align with the left of the input field */
+  width: 100%; /* Match input field width */
+  text-align: left; /* Align text to the left */
+}
+
+/* File upload and avatar preview */
+.editImg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; /* Space below the file input */
+}
+
+.edit-image-input {
+  background-color: #e50914; /* Netflix red */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+/* Submit button */
+.login-button {
+  background-color: #e50914; /* Netflix red */
+  color: white; /* White text */
+  font-size: 16px;
+  padding: 10px;
+  width: 100%; /* Full width of the box */
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.login-button:hover {
+  background-color: #b81d24; /* Darker red on hover */
+}
+
+.login-footer {
+  margin-top: 15px;
+  font-size: 14px;
+}

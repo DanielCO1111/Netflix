@@ -1,0 +1,121 @@
+/* Light Theme */
+.main-screen.light {
+  background-color: white;
+  color: black;
+}
+
+/* Dark Theme */
+.main-screen.dark {
+  background-color: black;
+  color: white;
+}
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.category-section {
+  margin-top: 20px;
+}
+
+.category-row {
+  margin-bottom: 20px;
+}
+
+.category-title {
+  margin-bottom: 10px;
+  color: #e50914;
+}
+
+.movie-list {
+  position: relative;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.movie-grid {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.movie-card {
+  flex: 0 0 auto;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.handle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.handlePrev {
+  left: 0;
+}
+
+.handleNext {
+  right: 0;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #333;
+}
+
+.top-menu button {
+  background: #e50914;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.top-menu button:hover {
+  background: #f40612;
+}
+
+.video-player {
+  margin: 20px 0;
+}
+
+.category {
+  margin: 20px 0;
+}
+
+.category h3 {
+  margin-bottom: 10px;
+}
+
+.movies {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.movie {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.movie img {
+  width: 150px;
+  height: 225px;
+  object-fit: cover;
+  border-radius: 4px;
+}

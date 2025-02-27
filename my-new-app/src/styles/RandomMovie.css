@@ -1,0 +1,82 @@
+.random-movie-container {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+
+/* Background Image */
+.random-movie-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 40px;
+}
+
+/* Gradient Overlay */
+.random-movie-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.8));
+}
+
+/* Movie Info */
+.random-movie-info {
+    position: relative;
+    z-index: 2;
+    color: white;
+    max-width: 500px;
+}
+
+/* Movie Title */
+.movie-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Movie Genre and Year */
+.movie-genre {
+    font-size: 1.2rem;
+    color: #bbb;
+}
+
+/* Movie Description */
+.movie-description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.random-movie-buttons .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.random-movie-buttons .btn-primary {
+    background-color: #e50914;
+    border: none;
+}
+
+.random-movie-buttons .btn-primary:hover {
+    background-color: #b1060e;
+}
+
+.random-movie-buttons .btn-secondary {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border: none;
+}
+
+.random-movie-buttons .btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}

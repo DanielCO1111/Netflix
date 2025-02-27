@@ -1,0 +1,111 @@
+[{
+  "_id": {
+    "$oid": "677a901d00141b24d336f046"
+  },
+  "password": "f48de2000e70aa2f4a2b77c8c6103ec0719104b7ef2307208b02491d0c6388a3",
+  "__v": 0,
+  "profileImage": "https://path.to/default/profile.png",
+  "first_name": "Alice",
+  "last_name": "Wondeland",
+  "username": "user1738409300719"
+},
+{
+  "_id": {
+    "$oid": "677a9ab2e196c61d31ff0a1d"
+  },
+  "name": "Bob",
+  "email": "bab@example.com",
+  "password": "70318bb3d53ec6a6dd8f63fa49a1fa9402e882aea4d37eed353c5efacd167b45",
+  "__v": 0,
+  "profileImage": "https://path.to/default/profile.png",
+  "first_name": "Unknown",
+  "last_name": "User",
+  "username": "user1738409300737"
+},
+{
+  "_id": {
+    "$oid": "677bcd444a5ed997f1202363"
+  },
+  "name": "Ali",
+  "email": "abcd@example.com",
+  "password": "2413a4c48170960ee6237ba326936a7c3467b53139f330f4d2cdc53b67a3a990",
+  "__v": 0,
+  "profileImage": "https://path.to/default/profile.png",
+  "first_name": "Unknown",
+  "last_name": "User",
+  "username": "user1738409300744"
+},
+{
+  "_id": {
+    "$oid": "677bcdcf4a5ed997f1202367"
+  },
+  "name": "Alin",
+  "email": "app@example.com",
+  "password": "b0e7475cc5fb379e9316f0471a362e528deb5878924faa8696dca44a82130b5f",
+  "__v": 0,
+  "profileImage": "https://path.to/default/profile.png",
+  "first_name": "Unknown",
+  "last_name": "User",
+  "username": "user1738409300750"
+},
+{
+  "_id": {
+    "$oid": "677c1519254a1884b83e802d"
+  },
+  "name": "bbc",
+  "email": "aaa@example.com",
+  "password": "d8dfcc1698f41d6ebda9cd22bcd0c154872c39a827824aaca3aeac14ed164605",
+  "__v": 0,
+  "profileImage": "https://path.to/default/profile.png",
+  "first_name": "Unknown",
+  "last_name": "User",
+  "username": "user1738409300758"
+},
+{
+  "_id": {
+    "$oid": "679e1ea47d86cf7af474d812"
+  },
+  "first_name": "Adi",
+  "last_name": "Zohar",
+  "username": "Adi_Z",
+  "password": "e2015175ff6827592b3aec9aaad52239f7a8e01950266e4ee5d3e856e9ac9e6b",
+  "role": "User",
+  "profileImage": null,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679e1fe67d86cf7af474d82a"
+  },
+  "first_name": "Adi",
+  "last_name": "Zohar",
+  "username": "AdiZ",
+  "password": "e2015175ff6827592b3aec9aaad52239f7a8e01950266e4ee5d3e856e9ac9e6b",
+  "role": "User",
+  "profileImage": null,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679e745d757d899d784c8280"
+  },
+  "first_name": "Johnny",
+  "last_name": "Doe",
+  "username": "johnny",
+  "password": "12345678",
+  "role": "Admin",
+  "profileImage": null,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679e81414bdeb281508957d0"
+  },
+  "first_name": "john",
+  "last_name": "doe",
+  "username": "johndoe",
+  "password": "24bdda6153880a3f16ef81fff6a16a96ff281c4e465a1fa15315395e3761c6ac",
+  "role": "Admin",
+  "profileImage": null,
+  "__v": 0
+}]

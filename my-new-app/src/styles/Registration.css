@@ -1,0 +1,108 @@
+/* General styling for the registration page */
+.registration-container {
+  background-color: black; /* Netflix black background */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 110vh; /* Full page height */
+  
+}
+
+/* Netflix logo text */
+.logo-text {
+  color: #e50914; /* Netflix red */
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Registration box styling */
+.registration-box {
+  background-color: #ffffff; /* Netflix red shade */
+  border-radius: 10px;
+  width: 600px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+/* Input styling */
+.registration-input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.error-message {
+  color: red; /* Text color for visibility */
+  font-size: 12px; /* Smaller font size for error text */
+  margin-bottom: 5px; /* Adds spacing between error message and input */
+  display: block; /* Ensures it spans the full width */
+  text-align: left; /* Align text to the left */
+}
+
+
+
+
+/* Submit button styling */
+.registration-button {
+  background-color: #e50914;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.registration-button:hover {
+  background-color: #b81d24; /* Darker red on hover */
+}
+
+
+/* Custom file upload button styling */
+.custom-file-upload {
+  display: inline-block;
+  background: linear-gradient(45deg, #e50914, #b81d24); /* Netflix red gradient */
+  color: white; /* White text color */
+  font-size: 16px; /* Standard readable font size */
+  font-weight: bold; /* Make the text stand out */
+  padding: 12px 25px; /* Adjust padding for a larger clickable area */
+  border: none; /* Remove default borders */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor for clarity */
+  transition: all 0.3s ease; /* Smooth transitions for hover effects */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  text-align: center;
+  margin: 10px 0; /* Add some spacing around the button */
+}
+
+/* Hover effects for the button */
+.custom-file-upload:hover {
+  background: linear-gradient(45deg, #b81d24, #e50914); /* Reverse gradient on hover */
+  transform: translateY(-2px); /* Slight upward movement for interactivity */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4); /* Deeper shadow on hover */
+}
+
+/* Focus state for accessibility */
+.custom-file-upload:focus {
+  outline: 2px solid #ffffff; /* White outline for focus indication */
+  outline-offset: 4px; /* Space between the button and outline */
+}
+
+/* Selected file name styling */
+.file-name {
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 14px;
+  color: white; /* Match the design theme */
+  text-overflow: ellipsis; /* Handle long filenames */
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 250px; /* Limit the width of the displayed file name */
+}

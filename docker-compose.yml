@@ -1,0 +1,69 @@
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    expose:
+      - "27017"
+    volumes:
+      - mongo_data:/data/db
+      - ./backend/src/data/backup:/backup
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh mongodb://localhost:27017/movieDB --quiet
+      interval: 10s
+      retries: 3
+
+  tcp-server:
+    build:
+      context: .
+      dockerfile: backend/src/cpp/Dockerfile.cpp
+    ports:
+      - "12345:12345"
+    healthcheck:
+      test: ["CMD", "bash", "-c", "echo -n > /dev/tcp/localhost/12345"]
+      interval: 5s
+      retries: 5
+      start_period: 10s
+
+
+  tcp-client:
+    build:
+      context: .
+      dockerfile: backend/src/python/Dockerfile.py
+    depends_on:
+      tcp-server:
+        condition: service_healthy
+    stdin_open: true 
+    tty: true
+
+  backend:
+    build: 
+      context: .
+      dockerfile: backend/Dockerfile.js
+    ports:
+      - "3000:3000"
+    depends_on:
+      mongodb:
+        condition: service_healthy
+      tcp-server:
+        condition: service_healthy
+    environment:
+      - CONNECTION_STRING=mongodb://mongodb:27017/movieDB
+      - PORT=3000
+      - JWT_SECRET=your_secret_key
+
+  frontend:
+    build: 
+      context: ./my-new-app
+      dockerfile: Dockerfile
+    container_name: frontend
+    restart: always
+    ports:
+      - "3001:3001"
+    depends_on: 
+      - backend
+
+volumes:
+  mongo_data:

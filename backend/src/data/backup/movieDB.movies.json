@@ -1,0 +1,570 @@
+[{
+  "_id": {
+    "$oid": "6772dbc2f69539d670c098e6"
+  },
+  "title": "Wicked",
+  "genre": "musical",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T17:43:30.561Z"
+  },
+  "__v": 0,
+  "year": "2024",
+  "category": {
+    "$oid": "6797c579cd726337fca5ee8f"
+  },
+  "thumbnail": "https://images.hdqwalls.com/download/wicked-movie-nr-1280x2120.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=6COmYeLsz4c",
+  "description": "Elphaba, a misunderstood young woman because of her green skin, and Galinda, a popular girl, become friends at Shiz University in the Land of Oz. After an encounter with the Wonderful Wizard of Oz, their friendship reaches a crossroads."
+},
+{
+  "_id": {
+    "$oid": "6772dde3f69539d670c098e8"
+  },
+  "title": "Twilights",
+  "genre": "romance",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T17:52:35.776Z"
+  },
+  "__v": 0,
+  "year": "2009",
+  "category": {
+    "$oid": "6797c579cd726337fca5ee94"
+  },
+  "thumbnail": "https://lionsgate.brightspotcdn.com/a4/1c/d2b998e542ac8e9d2822b2813fd0/twilight-movie-bg01-portrait.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=QDRLSqm_WVg",
+  "description": "When Bella Swan moves to a small town in the Pacific Northwest, she falls in love with Edward Cullen, a mysterious classmate who reveals himself to be a 108-year-old vampire."
+},
+{
+  "_id": {
+    "$oid": "6772de1af69539d670c098ea"
+  },
+  "title": "Titanic",
+  "genre": "romance",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T17:53:30.181Z"
+  },
+  "__v": 0,
+  "year": "1997",
+  "category": {
+    "$oid": "6797c579cd726337fca5ee94"
+  },
+  "thumbnail": "https://picfiles.alphacoders.com/140/140026.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=kVrqfYjkTdQ",
+  "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
+},
+{
+  "_id": {
+    "$oid": "6772de51f69539d670c098ec"
+  },
+  "title": "The dark knight",
+  "genre": "action",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T17:54:25.870Z"
+  },
+  "__v": 0,
+  "year": "2008",
+  "category": {
+    "$oid": "6797c579cd726337fca5ee9c"
+  },
+  "thumbnail": "https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+  "description": "When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness."
+},
+{
+  "_id": {
+    "$oid": "6772de8cf69539d670c098ee"
+  },
+  "title": "The godfather",
+  "genre": "crime",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T17:55:24.991Z"
+  },
+  "__v": 0,
+  "year": "1972",
+  "category": {
+    "$oid": "6797c579cd726337fca5eea1"
+  },
+  "thumbnail": "https://www.cinemaclock.com/images/posters/1000x1500/26/the-godfather-1972-us-poster.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=sY1S34973zA",
+  "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
+},
+{
+  "_id": {
+    "$oid": "6772df08f69539d670c098f0"
+  },
+  "title": "Pirates of the Caribbean",
+  "genre": "fantasy",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T17:57:28.774Z"
+  },
+  "__v": 0,
+  "year": "2003",
+  "category": {
+    "$oid": "6797c579cd726337fca5eea6"
+  },
+  "thumbnail": "https://image.tmdb.org/t/p/original/e4U04neVflUINTdsToBvnrTgbEh.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=He_RkyLNH4o",
+  "description": "Blacksmith Will Turner teams up with eccentric pirate \"Captain\" Jack Sparrow to save Elizabeth Swann, the governor's daughter and his love, from Jack's former pirate allies, who are now undead."
+},
+{
+  "_id": {
+    "$oid": "6772df57f69539d670c098f2"
+  },
+  "title": "Avatar",
+  "genre": "fantasy",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T17:58:47.467Z"
+  },
+  "__v": 0,
+  "year": "2009",
+  "category": {
+    "$oid": "6797c579cd726337fca5eea6"
+  },
+  "thumbnail": "https://image.tmdb.org/t/p/original/8Y7WrRK1iQHEX7UIftBeBMjPjWD.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=5PSNL1qE6VY",
+  "description": "\nA paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."
+},
+{
+  "_id": {
+    "$oid": "6772dfd8f69539d670c098f4"
+  },
+  "title": "The Avengers",
+  "genre": "action",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:00:56.950Z"
+  },
+  "__v": 0,
+  "year": "2012",
+  "category": {
+    "$oid": "6797c579cd726337fca5ee9c"
+  },
+  "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/81Q3-wGudPL.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=eOrNdBpGMv8",
+  "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
+},
+{
+  "_id": {
+    "$oid": "6772e0dcf69539d670c098f6"
+  },
+  "title": "Schindler's list",
+  "genre": "history",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:05:16.264Z"
+  },
+  "__v": 0,
+  "year": "1993",
+  "category": {
+    "$oid": "6797c579cd726337fca5eeb1"
+  },
+  "thumbnail": "https://wallpaperaccess.com/full/2006534.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=WhH3WX3_7AM",
+  "description": "\nIn German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."
+},
+{
+  "_id": {
+    "$oid": "6772e141f69539d670c098f8"
+  },
+  "title": "The lord of the rings",
+  "genre": "fantasy",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:06:57.649Z"
+  },
+  "__v": 0,
+  "year": "2001",
+  "category": {
+    "$oid": "6797c579cd726337fca5eea6"
+  },
+  "thumbnail": "https://th.bing.com/th/id/R.6015aef5dc022e7bb540a1da433811e7?rik=U5cVFEY27xtiVQ&pid=ImgRaw&r=0",
+  "streamingUrl": "https://www.youtube.com/watch?v=V75dMMIW2B4",
+  "description": "Epic drama set thousands of years before the events of J.R.R. Tolkien's 'The Hobbit' and 'The Lord of the Rings' follows an ensemble cast of characters, both familiar and new, as they confront the long-feared re-emergence of evil to Middle-earth."
+},
+{
+  "_id": {
+    "$oid": "6772e193f69539d670c098fa"
+  },
+  "title": "Harry Potter",
+  "genre": "fantasy",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:08:19.416Z"
+  },
+  "__v": 0,
+  "year": "2001",
+  "category": {
+    "$oid": "6797c579cd726337fca5eea6"
+  },
+  "thumbnail": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6fb2669529289.560d52b555b41.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=h1Ob6OnRmew",
+  "description": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world."
+},
+{
+  "_id": {
+    "$oid": "6772e1d3f69539d670c098fc"
+  },
+  "title": "Forrest Gump",
+  "genre": "drama",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:09:23.112Z"
+  },
+  "__v": 0,
+  "year": "1994",
+  "category": {
+    "$oid": "6797c579cd726337fca5eebc"
+  },
+  "thumbnail": "https://i.pinimg.com/originals/9d/4e/23/9d4e23ab073ffe5492051cd348128863.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=bLvqoHBptjg",
+  "description": "\nThe history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart."
+},
+{
+  "_id": {
+    "$oid": "6772e23ef69539d670c098fe"
+  },
+  "title": "The silence of the lambs",
+  "genre": "crime",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:11:10.219Z"
+  },
+  "__v": 0,
+  "year": "1991",
+  "category": {
+    "$oid": "6797c579cd726337fca5eea1"
+  },
+  "thumbnail": "https://m.media-amazon.com/images/I/71-2P0ZU0ML.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=6iB21hsprAQ",
+  "description": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+},
+{
+  "_id": {
+    "$oid": "6772e276f69539d670c09900"
+  },
+  "title": "City of god",
+  "genre": "crime",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:12:06.732Z"
+  },
+  "__v": 0,
+  "year": "2002",
+  "category": {
+    "$oid": "6797c579cd726337fca5eea1"
+  },
+  "thumbnail": "https://alternativemovieposters.com/wp-content/uploads/2021/05/RoughDeontas_CityOfGod-250x354.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=dcUOO4Itgmw",
+  "description": "In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin."
+},
+{
+  "_id": {
+    "$oid": "6772e2a1f69539d670c09902"
+  },
+  "title": "The green mile",
+  "genre": "crime",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:12:49.775Z"
+  },
+  "__v": 0,
+  "year": "1999",
+  "category": {
+    "$oid": "6797c579cd726337fca5eea1"
+  },
+  "thumbnail": "https://www.screenwritersnetwork.org/wp-content/uploads/2021/08/The-Green-Mile-1999.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=Bg7epsq0OIQ",
+  "description": "\nPaul Edgecomb, the head death row guard at a prison in 1930s Louisiana, meets an inmate, John Coffey, a black man who is accused of murdering two girls. His life changes drastically when he discovers that John has a special gift."
+},
+{
+  "_id": {
+    "$oid": "6772e305f69539d670c09904"
+  },
+  "title": "Spirited away",
+  "genre": "animation",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:14:29.865Z"
+  },
+  "__v": 0,
+  "year": "2001",
+  "category": {
+    "$oid": "6797c579cd726337fca5eeca"
+  },
+  "thumbnail": "https://i.pinimg.com/originals/c3/56/00/c35600db8bfc9f8682a7d4e5082eb17d.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=ByXuk9QqQkk",
+  "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches and spirits, and where humans are changed into beasts."
+},
+{
+  "_id": {
+    "$oid": "6772e343f69539d670c09906"
+  },
+  "title": "The pianist",
+  "genre": "war",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:15:31.481Z"
+  },
+  "__v": 0,
+  "year": "2002",
+  "category": {
+    "$oid": "6797c579cd726337fca5eecf"
+  },
+  "thumbnail": "https://alteoxstreamimages.b-cdn.net/movie-cover/various/4/123796-cover-en.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=K8DVwuXIx2E",
+  "description": "\nDuring WWII, acclaimed Polish musician Wladyslaw faces various struggles as he loses contact with his family. As the situation worsens, he hides in the ruins of Warsaw in order to survive."
+},
+{
+  "_id": {
+    "$oid": "6772e379f69539d670c09908"
+  },
+  "title": "The lion king",
+  "genre": "animation",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:16:25.859Z"
+  },
+  "__v": 0,
+  "year": "1994",
+  "category": {
+    "$oid": "6797c579cd726337fca5eeca"
+  },
+  "thumbnail": "https://xl.movieposterdb.com/05_12/1994/0110357/xl_76162_0110357_970c06d3.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=lFzVJEksoDY",
+  "description": "Mufasa, a cub lost and alone, meets a sympathetic lion named Taka, the heir to a royal bloodline. The chance meeting sets in motion an expansive journey of a group of misfits searching for their destiny."
+},
+{
+  "_id": {
+    "$oid": "6772e3aff69539d670c0990a"
+  },
+  "title": "Leon",
+  "genre": "action",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:17:19.487Z"
+  },
+  "__v": 0,
+  "year": "1994",
+  "category": {
+    "$oid": "6797c579cd726337fca5ee9c"
+  },
+  "thumbnail": "https://image.tmdb.org/t/p/original/idU7cVUF285FBUxBYunka6WAqNa.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=aNQqoExfQsg",
+  "description": "12-year-old Mathilda is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin's trade."
+},
+{
+  "_id": {
+    "$oid": "6772e409f69539d670c0990c"
+  },
+  "title": "The intouchables",
+  "genre": "comedy",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:18:49.468Z"
+  },
+  "__v": 0,
+  "year": "2011",
+  "category": {
+    "$oid": "6797c579cd726337fca5eeda"
+  },
+  "thumbnail": "https://picfiles.alphacoders.com/140/thumb-1920-140939.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=34WIbmXkewU",
+  "description": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver."
+},
+{
+  "_id": {
+    "$oid": "6772e45ef69539d670c0990e"
+  },
+  "title": "Django unchained",
+  "genre": "comedy",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:20:14.014Z"
+  },
+  "__v": 0,
+  "year": "2012",
+  "category": {
+    "$oid": "6797c579cd726337fca5eeda"
+  },
+  "thumbnail": "https://img.moviesrankings.com/t/p/w1280/q8kCdXcIozt6ZuH5VhtQDBLjS1X.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=_iH0UBYDI4g&t",
+  "description": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi."
+},
+{
+  "_id": {
+    "$oid": "6772e4c6f69539d670c09910"
+  },
+  "title": "WALL E",
+  "genre": "animation",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:21:58.120Z"
+  },
+  "__v": 0,
+  "year": "2008",
+  "category": {
+    "$oid": "6797c579cd726337fca5eeca"
+  },
+  "thumbnail": "https://i.pinimg.com/originals/31/9a/f7/319af7d1931aaf86a3c9a4093d27ee65.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=CZ1CATNbXg0",
+  "description": "A robot who is responsible for cleaning a waste-covered Earth meets another robot and falls in love with her. Together, they set out on a journey that will alter the fate of mankind."
+},
+{
+  "_id": {
+    "$oid": "6772e508f69539d670c09912"
+  },
+  "title": "Toy story",
+  "genre": "animation",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:23:04.621Z"
+  },
+  "__v": 0,
+  "year": "1995",
+  "category": {
+    "$oid": "6797c579cd726337fca5eeca"
+  },
+  "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=v-PjgYDrg70",
+  "description": "A cowboy doll is profoundly threatened and jealous when a new spaceman action figure supplants him as top toy in a boy's bedroom."
+},
+{
+  "_id": {
+    "$oid": "6772e545f69539d670c09914"
+  },
+  "title": "The baby boss",
+  "genre": "animation",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:24:05.450Z"
+  },
+  "__v": 0,
+  "year": "2017",
+  "category": {
+    "$oid": "6797c579cd726337fca5eeca"
+  },
+  "thumbnail": "https://playfilm.to/wp-content/uploads/2020/08/The-Boss-Baby-2017-Poster-scaled.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=tquIfapGVqs",
+  "description": "A suit-wearing, briefcase-carrying baby pairs up with his 7-year old brother to stop the dastardly plot of the CEO of Puppy Co."
+},
+{
+  "_id": {
+    "$oid": "6772ec9b4b4eff777a38ed9c"
+  },
+  "title": "The incredibles",
+  "genre": "family",
+  "year": "2004",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:55:23.823Z"
+  },
+  "__v": 0,
+  "category": {
+    "$oid": "6797c579cd726337fca5eeeb"
+  },
+  "thumbnail": "https://i.pinimg.com/originals/0d/88/dd/0d88dd2b4f1a51ab01f7f06ca35d8e50.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=-UaGUdNJdRQ&t=42s",
+  "description": "While trying to lead a quiet suburban life, a family of undercover superheroes are forced into action to save the world."
+},
+{
+  "_id": {
+    "$oid": "6772ed184b4eff777a38ed9e"
+  },
+  "title": "Oppenheimer",
+  "genre": "history",
+  "year": "2023",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T18:57:28.716Z"
+  },
+  "__v": 0,
+  "category": {
+    "$oid": "6797c579cd726337fca5eeb1"
+  },
+  "thumbnail": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/37e3a3175065997.64ad6201d268a.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=uYPbbksJxIg&t=41s",
+  "description": "A dramatization of the life story of J. Robert Oppenheimer, the physicist who had a large hand in the development of the atomic bombs that brought an end to World War II."
+},
+{
+  "_id": {
+    "$oid": "6772edee4b4eff777a38eda0"
+  },
+  "title": "The wolf of wall street",
+  "genre": "drama",
+  "year": "2013",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T19:01:02.162Z"
+  },
+  "__v": 0,
+  "category": {
+    "$oid": "6797c579cd726337fca5eebc"
+  },
+  "thumbnail": "https://image.tmdb.org/t/p/original/gnsDyUgLVeVo99gx4QJCWt9IKO1.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=iszwuX1AK6A",
+  "description": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government."
+},
+{
+  "_id": {
+    "$oid": "6772eed54b4eff777a38eda4"
+  },
+  "title": "Finding Nemo",
+  "genre": "family",
+  "year": "2003",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-01-31T19:04:53.963Z"
+  },
+  "__v": 0,
+  "category": {
+    "$oid": "6797c579cd726337fca5eeeb"
+  },
+  "thumbnail": "https://image.tmdb.org/t/p/w1280/aPMHPOd8hxS4goTAHEouvrOiRV2.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=9oQ628Seb9w&t=58s",
+  "description": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home."
+},
+{
+  "_id": {
+    "$oid": "6772ef264b4eff777a38eda6"
+  },
+  "title": "V for Vendetta",
+  "genre": "action",
+  "year": "2005",
+  "promoted": true,
+  "createdAt": {
+    "$date": "2024-12-30T19:06:14.063Z"
+  },
+  "__v": 0,
+  "category": {
+    "$oid": "6797c579cd726337fca5ee9c"
+  },
+  "thumbnail": "https://img.moviesrankings.com/t/p/w1280/2ySXWBckQboalTZjhaLWRqc3gCN.jpg",
+  "streamingUrl": "https://www.youtube.com/watch?v=lSA7mAHolAw",
+  "description": "In a future British dystopian society, a shadowy freedom fighter, known only by the alias of \"V\", plots to overthrow the tyrannical government - with the help of a young woman.\n"
+},
+{
+  "_id": {
+    "$oid": "679cc11369ef7c1300f2d43d"
+  },
+  "title": "Kill Bill",
+  "genre": "action",
+  "year": "2003",
+  "promoted": true,
+  "category": {
+    "$oid": "6797c579cd726337fca5ee9c"
+  },
+  "createdAt": {
+    "$date": "2025-01-31T12:24:51.116Z"
+  },
+  "__v": 0,
+  "description": "After waking from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
+  "streamingUrl": "https://www.youtube.com/watch?v=7kSuas6mRpk",
+  "thumbnail": "https://posterspy.com/wp-content/uploads/2020/09/ruiz-burgos-87276279-3242423099120382-3806093197583581184-o.jpg"
+}]

@@ -1,0 +1,200 @@
+[{
+  "_id": {
+    "$oid": "6797c579cd726337fca5ee8f"
+  },
+  "name": "musical",
+  "promoted": false,
+  "movies": [
+    {
+      "$oid": "6772dbc2f69539d670c098e6"
+    }
+  ],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "6797c579cd726337fca5ee94"
+  },
+  "name": "romance",
+  "promoted": false,
+  "movies": [
+    {
+      "$oid": "6772dde3f69539d670c098e8"
+    },
+    {
+      "$oid": "6772de1af69539d670c098ea"
+    }
+  ],
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "6797c579cd726337fca5ee9c"
+  },
+  "name": "action",
+  "promoted": false,
+  "movies": [
+    {
+      "$oid": "6772de51f69539d670c098ec"
+    },
+    {
+      "$oid": "6772dfd8f69539d670c098f4"
+    },
+    {
+      "$oid": "6772e3aff69539d670c0990a"
+    },
+    {
+      "$oid": "6772ef264b4eff777a38eda6"
+    },
+    {
+      "$oid": "679cc11369ef7c1300f2d43d"
+    }
+  ],
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "6797c579cd726337fca5eea1"
+  },
+  "name": "crime",
+  "promoted": false,
+  "movies": [
+    {
+      "$oid": "6772de8cf69539d670c098ee"
+    },
+    {
+      "$oid": "6772e23ef69539d670c098fe"
+    },
+    {
+      "$oid": "6772e276f69539d670c09900"
+    },
+    {
+      "$oid": "6772e2a1f69539d670c09902"
+    }
+  ],
+  "__v": 4
+},
+{
+  "_id": {
+    "$oid": "6797c579cd726337fca5eea6"
+  },
+  "name": "fantasy",
+  "promoted": false,
+  "movies": [
+    {
+      "$oid": "6772df08f69539d670c098f0"
+    },
+    {
+      "$oid": "6772df57f69539d670c098f2"
+    },
+    {
+      "$oid": "6772e141f69539d670c098f8"
+    },
+    {
+      "$oid": "6772e193f69539d670c098fa"
+    }
+  ],
+  "__v": 4
+},
+{
+  "_id": {
+    "$oid": "6797c579cd726337fca5eeb1"
+  },
+  "name": "history",
+  "promoted": false,
+  "movies": [
+    {
+      "$oid": "6772e0dcf69539d670c098f6"
+    },
+    {
+      "$oid": "6772ed184b4eff777a38ed9e"
+    }
+  ],
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "6797c579cd726337fca5eebc"
+  },
+  "name": "drama",
+  "promoted": false,
+  "movies": [
+    {
+      "$oid": "6772e1d3f69539d670c098fc"
+    },
+    {
+      "$oid": "6772edee4b4eff777a38eda0"
+    }
+  ],
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "6797c579cd726337fca5eeca"
+  },
+  "name": "animation",
+  "promoted": false,
+  "movies": [
+    {
+      "$oid": "6772e305f69539d670c09904"
+    },
+    {
+      "$oid": "6772e379f69539d670c09908"
+    },
+    {
+      "$oid": "6772e4c6f69539d670c09910"
+    },
+    {
+      "$oid": "6772e508f69539d670c09912"
+    },
+    {
+      "$oid": "6772e545f69539d670c09914"
+    }
+  ],
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "6797c579cd726337fca5eecf"
+  },
+  "name": "war",
+  "promoted": false,
+  "movies": [
+    {
+      "$oid": "6772e343f69539d670c09906"
+    }
+  ],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "6797c579cd726337fca5eeda"
+  },
+  "name": "comedy",
+  "promoted": false,
+  "movies": [
+    {
+      "$oid": "6772e409f69539d670c0990c"
+    },
+    {
+      "$oid": "6772e45ef69539d670c0990e"
+    }
+  ],
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "6797c579cd726337fca5eeeb"
+  },
+  "name": "family",
+  "promoted": false,
+  "movies": [
+    {
+      "$oid": "6772ec9b4b4eff777a38ed9c"
+    },
+    {
+      "$oid": "6772eed54b4eff777a38eda4"
+    }
+  ],
+  "__v": 2
+}]

@@ -1,0 +1,116 @@
+/* Main container */
+.home {
+  background-color: black; /* Set the background color to black */
+  color: rgb(250, 242, 242); /* Netflix red for the text */
+  text-align: center; /* Center-align all content */
+  height: 100vh; /* Full-screen height */
+  padding-top: 50px; /* Add padding at the top */
+  font-family:  sans-serif; /* Use a clean, modern font */
+  position: relative; /* Make this container the reference point for absolute positioning */
+  background-image: url('netback2.jpg');
+
+
+}
+
+
+  
+/* Language container styles */
+.language-container {
+  position: absolute; /* Position relative to the .home container */
+  top: 30px; /* Distance from the top of the screen */
+  right: 280px; /* Distance from the right of the screen */
+  display: flex; /* Align items in a row */
+  align-items: center; /* Center vertically */
+  gap: 15px; /* Increased space between the label and the dropdown */
+  padding: 0 20px; /* Added horizontal padding to make it longer */
+  width: auto; /* Ensures the container stretches with content */
+  max-width: 300px; /* Optional: Set a max width if needed */
+}
+
+  
+  /* Language dropdown */
+  .language-dropdown {
+    padding: 5px 10px; /* Add padding inside the dropdown for better usability */
+    font-size: 1rem; /* Standard font size */
+    border-radius: 5px; /* Add rounded corners */
+    border: 1px solid rgb(255, 255, 255); /* Red border for styling */
+    background-color: black; /* Black dropdown background */
+    color: rgb(255, 254, 254); /* Red text color */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .language-dropdown option {
+    background-color: black; /* Keep options consistent with the dropdown */
+    color: rgb(255, 255, 255); /* Red text for options */
+  }
+  
+  /* Language label */
+  .language {
+    font-size: 1rem; /* Standard font size */
+    color: red; /* Red text for consistency */
+  }
+  
+  /* Main title */
+  .home h1 {
+    font-size: 4rem; /* Large font size for the main title */
+    font-weight: 900; /* Make the text bold */
+    margin-bottom: 10px; /* Add space below the title */
+  }
+  
+  /* Subtitle */
+  .home h2 {
+    font-size: 2rem; /* Slightly smaller font size for the subtitle */
+    margin-bottom: 20px; /* Add space below the subtitle */
+  }
+  
+  /* Paragraphs (e.g., instructions) */
+  .home p {
+    margin-top: 20px; /* Add space above the paragraph */
+    font-size: 1rem; /* Standard font size */
+  }
+  
+  /* Button styles (Login and Register) */
+  .loginpage-button {
+    margin: 10px; /* Add space between buttons */
+    padding: 10px 20px; /* Add padding inside the button */
+    background-color: red; /* Netflix red for the button background */
+    color: white; /* White text for contrast */
+    border: none; /* Remove default button borders */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    font-size: 1rem; /* Standard font size for the button text */
+    transition: background-color 0.3s ease; /* Smooth transition effect on hover */
+  }
+
+    /* Button styles (Login and Register) */
+    .signinpage-button {
+      position: absolute; /* Position relative to the .home container */
+      top: 20px; /* Distance from the top of the screen */
+      right: 190px; /* Distance from the right of the screen */
+      display: flex; /* Align items in a row */
+
+      margin: 10px; /* Add space between buttons */
+      padding: 6px 20px; /* Add padding inside the button */
+      background-color: red; /* Netflix red for the button background */
+      color: white; /* White text for contrast */
+      border: none; /* Remove default button borders */
+      border-radius: 5px; /* Add rounded corners */
+      cursor: pointer; /* Change the cursor to a pointer on hover */
+      font-size: 1rem; /* Standard font size for the button text */
+      transition: background-color 0.3s ease; /* Smooth transition effect on hover */
+    }
+  
+  /* Hover effect for buttons */
+  .home-button:hover {
+    background-color: #d11a1a; /* Slightly darker red for hover effect */
+  }
+
+  
+  /* Netflix logo */
+.netflix-logo {
+    width: 200px; /* Set the width of the image */
+    margin-bottom: 20px; /* Add space below the logo */
+    display: block; /* Ensure the image is treated as a block element */
+    margin-left: auto; /* Center the image horizontally */
+    margin-right: auto; /* Center the image horizontally */
+  }

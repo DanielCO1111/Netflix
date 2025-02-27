@@ -1,0 +1,40 @@
+services:
+  tcp-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.cpp
+    ports:
+      - "12345:12345"
+    command: ["./tcp_server", "12345"]  
+
+  tcp-client:
+    build:
+      context: .
+      dockerfile: Dockerfile.py
+    depends_on:
+      - tcp-server
+    command: ["python3", "tcp_c.py", "localhost", "12345"]
+
+  mongo:
+      image: mongo:latest
+      container_name: mongo
+      restart: always
+      volumes:
+      - ./data/db:/data/db
+      ports:
+        - "27017:27017"
+      environment:
+        - CONNECTION_STRING=mongodb://mongo:27017/movieDB
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.js
+    depends_on:
+      - mongo
+      - tcp-server
+    environment:
+      - CONNECTION_STRING=mongodb://mongo:27017/movieDB
+    ports:
+      - "3000:3000"
+    command: ["node", "app.js"]
